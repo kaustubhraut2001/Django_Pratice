@@ -11,5 +11,5 @@ class Test(models.Model):
     avatar = models.ImageField(upload_to='images/' , default='')
 
     def __str__(self):
-        return self.name + self.email 
+        return self.name  
 
