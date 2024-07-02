@@ -8,7 +8,10 @@
 <body>
     <h4>
         Testing the django templates
-        {% block  %}{% endblock  %}
+       {% include "register.html" %}
     </h4>
+    <p>
+        Names is {{content}}
+    </p>
 </body>
 </html>
